@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+header{
+    background: rgb(63,94,251);
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+nav h1{
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+#home{
+    background-color: #c3a7f8;
+}
+#home img{
+    margin-top: 5%;
+    margin-left: 28%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+}
+#home p{
+    color:white;
+    font-size: 18px;
+    padding: 15px 15px;
+    font-weight: 500;
+    text-align: center;
+}
+#about{
+    background-color: #378bdd;
+}
+#about .content-about{
+    display: flex;
+    color: white;
+}
+#about .content-about img{
+    margin: 2% 5% 1% 2%;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+.content-about p{
+    padding: 2rem 10px;
+    font-size: 17px;
+}
+#quotes{
+    background-color: #668282;
+    color: white;
+}
+#quotes h1{
+    padding: 25px 15px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+#quotes .quotes-sec{
+    text-align: center;
+    margin: 50px 50px;
+}
+#quotes .quotes-sec p{
+    font-size: 20px;
+}
+footer{
+    background-color: bisque;
+    color: black;
+}
+footer nav{
+    display: flex;
+    padding: 15px 15px;
+}
+footer nav ul li{
+    margin-left: 50px;
+}
+
